@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+cd "$(dirname "$0")/.."
+
+set -e
+
+# install npm packages
+npm install
+
+# Link up .files
+for DOTFILE in $(find -H "$DOTFILES" -maxdepth 2 -name '.*')
+do
+	NAME=$(basename "${DOTFILE}")
+	if [ "$NAME" != ".git" ]
+	then
+		if ! [ -L "$HOME/$NAME" ]
+    then
+      ln -sfv "$DOTFILE" "$HOME/$NAME"
+    else
+      rm -rv "$HOME/$NAME"
+      ln -sv "$DOTFILE" "$HOME/$NAME"
+    fi
+	fi
+done

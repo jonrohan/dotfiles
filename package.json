@@ -1,0 +1,9 @@
+{
+  "private": "true",
+  "version": "1.0.0",
+  "name": "dotfiles",
+  "dependencies": {
+    "pure-prompt": "latest",
+    "trash-cli": "latest"
+  }
+}

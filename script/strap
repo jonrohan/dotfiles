@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+bash <(curl -s "https://raw.githubusercontent.com/MikeMcQuaid/strap/master/bin/strap.sh")
