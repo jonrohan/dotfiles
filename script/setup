@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 cd "$(dirname "$0")/.."
 
@@ -11,7 +11,7 @@ npm install
 for DOTFILE in $(find -H "$DOTFILES" -maxdepth 2 -name '.*')
 do
 	NAME=$(basename "${DOTFILE}")
-	if [ "$NAME" != ".git" ]
+	if [ "$NAME" != ".git" ] && [ "$NAME" != ".dotfiles" ]
 	then
 		if ! [ -L "$HOME/$NAME" ]
     then

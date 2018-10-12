@@ -9,7 +9,9 @@ then
   source ~/.localrc
 fi
 
-fpath=(~/.zsh $fpath)
+# Setup autocompletions in `~/.zsh`
+fpath=($HOME/.zsh $fpath)
+autoload -U compinit && compinit
 
 # all of our zsh files
 typeset -U CONFIG_FILES
@@ -21,22 +23,8 @@ do
   source $FILE
 done
 
-# History file
-export HISTFILE=~/.zsh_history
-
-# Don't show duplicate history entires
-setopt hist_find_no_dups
-
-# Remove unnecessary blanks from history
-setopt hist_reduce_blanks
-
-# Share history between instances
-setopt share_history
-
-#
-autoload -U promptinit; promptinit
-
-# Default to pure
-prompt pure
-
 unset CONFIG_FILES
+
+# Activate pure prompt
+autoload -U promptinit; promptinit
+prompt pure

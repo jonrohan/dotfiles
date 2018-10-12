@@ -1,0 +1,2 @@
+#compdef e
+_files -W $PROJECTS -/
