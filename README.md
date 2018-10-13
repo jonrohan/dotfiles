@@ -27,3 +27,5 @@ Run the `script/strap` script. This will pull down the latest [strap.sh](https:/
 While strap is running, it will check if you have a `/dotfiles/` repository on GitHub, clone the repository, and run `script/setup`. This moves everything into place.
 
 ## LICENSE
+
+[GNU GPLv3](./LICENSE) &copy; Jon Rohan
