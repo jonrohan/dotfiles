@@ -19,9 +19,9 @@ for DOTFILE in .*;
 do
   HOMEFILE="$HOME/$DOTFILE"
   [ -d $DOTFILE ] && DOTFILE="$DOTFILE/"
-  
+
   # Skip certain files
-  echo $DOTFILE | egrep -q '(^\.git/$|^\.gitignore$|\.\.?/$)' && continue
+  echo $DOTFILE | egrep -q '(^\.git/$|^\.gitignore$|^\.vscode/$|\.\.?/$)' && continue
 
 	link $DOTFILE $HOMEFILE
 done
@@ -29,11 +29,8 @@ done
 # Linking up vscode
 VSCODE="$HOME/Library/Application Support/Code/User" && mkdir -p "$VSCODE"
 
-link "vscode/snippets/" "$VSCODE/snippets"
-link "vscode/settings.json" "$VSCODE/settings.json"
+link ".vscode/snippets/" "$VSCODE"
+link ".vscode/settings.json" "$VSCODE/settings.json"
 
 # install npm packages
 npm install
-
-# install atom packages
-# apm install --packages-file "$HOME/.atom/_packages"

@@ -1,11 +1,3 @@
-.atom/.apm/
-.atom/.node-gyp/
-.atom/blob-store/
-.atom/compile-cache/
-.atom/packages/
-.atom/recovery/
-.atom/storage/
-
 .DS_Store
 *~
 *.swp
