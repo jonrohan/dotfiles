@@ -1,3 +1,11 @@
+[user]
+	name = Jon Rohan
+	email = yes@jonrohan.codes
+	signingkey = B0BBE304A9A0AECB
+[github]
+  user = jonrohan
+[gpg]
+	program = gpg
 [alias]
   br = branch
   ci = commit
@@ -44,6 +52,8 @@
   added = yellow
   changed = green
   untracked = cyan
+[commit]
+  gpgsign = true
 [core]
   excludesfile = ~/.gitignore
   editor = vim
@@ -71,8 +81,3 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
-[user]
-	name = Jon Rohan
-	email = yes@jonrohan.codes
-[github]
-  user = jonrohan

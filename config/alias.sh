@@ -10,3 +10,5 @@ alias la='ls -A'
 alias rm=trash
 
 alias c='source ~/.zsh/c'
+
+alias code='code --user-data-dir ~/.vscode'

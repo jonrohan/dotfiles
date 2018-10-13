@@ -2,7 +2,7 @@
 export PROJECTS=$HOME/Code
 
 # What editor I use, so I can type `e .` to open
-export EDITOR='atom'
+export EDITOR='code'
 
 # History file
 export HISTFILE=~/.zsh_history

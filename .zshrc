@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # shortcut to this dotfiles path is $DOTFILES
 export DOTFILES=$HOME/.dotfiles
 

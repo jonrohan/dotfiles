@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "name": "dotfiles",
   "dependencies": {
-    "alfred-dark-mode": "latest",
+    "alfred-dark-mode": "^1.0.0",
     "dark-mode-cli": "latest",
+    "now": "latest",
     "pure-prompt": "latest",
     "trash-cli": "latest",
-    "now": "latest"
+    "open-editor-cli": "latest"
   }
 }

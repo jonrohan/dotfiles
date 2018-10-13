@@ -4,21 +4,36 @@ cd "$(dirname "$0")/.."
 
 set -e
 
+link() {
+  if ! [ -L "$2" ]
+  then
+    ln -sfv "$DOTFILES/$1" "$2"
+  else
+    rm -rv "$2"
+    ln -sv "$DOTFILES/$1" "$2"
+  fi
+}
+
+# Link up .dotfiles
+for DOTFILE in .*;
+do
+  HOMEFILE="$HOME/$DOTFILE"
+  [ -d $DOTFILE ] && DOTFILE="$DOTFILE/"
+  
+  # Skip certain files
+  echo $DOTFILE | egrep -q '(^\.git/$|^\.gitignore$|\.\.?/$)' && continue
+
+	link $DOTFILE $HOMEFILE
+done
+
+# Linking up vscode
+VSCODE="$HOME/Library/Application Support/Code/User" && mkdir -p "$VSCODE"
+
+link "vscode/snippets/" "$VSCODE/snippets"
+link "vscode/settings.json" "$VSCODE/settings.json"
+
 # install npm packages
 npm install
 
-# Link up .files
-for DOTFILE in $(find -H "$DOTFILES" -maxdepth 2 -name '.*')
-do
-	NAME=$(basename "${DOTFILE}")
-	if [ "$NAME" != ".git" ] && [ "$NAME" != ".dotfiles" ]
-	then
-		if ! [ -L "$HOME/$NAME" ]
-    then
-      ln -sfv "$DOTFILE" "$HOME/$NAME"
-    else
-      rm -rv "$HOME/$NAME"
-      ln -sv "$DOTFILE" "$HOME/$NAME"
-    fi
-	fi
-done
+# install atom packages
+# apm install --packages-file "$HOME/.atom/_packages"

@@ -1,0 +1,43 @@
+"*":
+  "autocomplete-paths":
+    ignoreBuiltinScopes: true
+    ignoreSubmodules: true
+    ignoredPatterns: [
+      "node_modules"
+      ""
+    ]
+    maxFileCount: 10000
+  "city-lights-ui":
+    fontSize: 14
+  core:
+    audioBeep: false
+    disabledPackages: [
+      "autocomplete-paths"
+    ]
+    openEmptyEditorOnStart: false
+    restorePreviousWindowsOnStart: "always"
+    telemetryConsent: "limited"
+    themes: [
+      "city-lights-ui"
+      "city-lights-syntax"
+    ]
+    warnOnLargeFileLimit: 10
+  editor:
+    fontFamily: "SF Mono, Menlo, Consolas, DejaVu Sans Mono, monospace"
+    fontSize: 19
+    showIndentGuide: true
+    showInvisibles: true
+  "exception-reporting":
+    userId: "0d36bf6a-3113-4e33-9986-eb96ba1452e3"
+  "linter-rubocop":
+    disableWhenNoConfigFile: true
+  minimap:
+    plugins:
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      linter: true
+      linterDecorationsZIndex: 0
+  welcome:
+    showOnStartup: false

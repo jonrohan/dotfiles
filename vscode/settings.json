@@ -1,0 +1,10 @@
+{
+    "workbench.colorTheme": "City Lights",
+    "editor.fontSize": 18,
+    "editor.fontFamily": "SF Mono, Menlo, Monaco, 'Courier New', monospace",
+    "workbench.iconTheme": "vs-minimal",
+    "workbench.activityBar.visible": true,
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": true,
+    "editor.cursorStyle": "block"
+}
