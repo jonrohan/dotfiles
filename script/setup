@@ -34,3 +34,8 @@ link ".vscode/settings.json" "$VSCODE/settings.json"
 
 # install npm packages
 npm install
+
+# Install vscode extensions
+while read extension; do
+  code --install-extension "$extension"
+done <$DOTFILES/.vscode/extensions

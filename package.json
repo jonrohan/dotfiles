@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "name": "dotfiles",
   "dependencies": {
-    "alfred-dark-mode": "^1.0.0",
+    "alfred-dark-mode": "latest",
     "dark-mode-cli": "latest",
     "now": "latest",
     "pure-prompt": "latest",
