@@ -72,7 +72,7 @@
 	rebase = true
 [push]
 	# Push to the set upstream branch being tracked by default.
-	default = simple
+	default = current
 [rerere]
 	# Store and re-use manual conflict resolution changes.
 	enabled = 1

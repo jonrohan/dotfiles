@@ -34,5 +34,4 @@ add_to_path_start "/usr/local/sbin"
 add_to_path_start "/usr/local/bin"
 
 # relative to project
-add_to_path_start "./node_modules/.bin"
-add_to_path_start "./bin"
+export PATH="./node_modules/.bin:./bin:$PATH"

@@ -17,5 +17,5 @@
 if [ "$1" = "" ] ; then
   exec $EDITOR .
 else
-  exec $EDITOR "$PROJECTS/$1"
+  exec $EDITOR "$1"
 fi
