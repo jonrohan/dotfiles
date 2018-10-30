@@ -11,6 +11,10 @@ export HISTFILE=~/.zsh_history
 export HISTSIZE="100000"
 export SAVEHIST="100000"
 
+# Colors for LS
+export CLICOLOR=1
+export LSCOLORS='exfxcxdxbxegedabagacad'
+
 # Don't show duplicate history entires
 setopt hist_find_no_dups
 
