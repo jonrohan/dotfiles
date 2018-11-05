@@ -35,6 +35,10 @@ link ".vscode/settings.json" "$VSCODE/settings.json"
 # install npm packages
 npm install
 
+# Install gems
+gem install bundler
+bundle install
+
 # Install vscode extensions
 while read extension; do
   code --install-extension "$extension"

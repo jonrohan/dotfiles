@@ -32,6 +32,8 @@ add_to_path_start "$DOTFILES/node_modules/.bin"
 
 add_to_path_start "/usr/local/sbin"
 add_to_path_start "/usr/local/bin"
+add_to_path_start "$HOME/.gem/bin"
+add_to_path_start "$HOME/.rbenv/shims"
 
 # relative to project
 export PATH="./node_modules/.bin:./bin:$PATH"

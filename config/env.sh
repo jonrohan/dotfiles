@@ -1,6 +1,9 @@
 # Projects root, for autocompleting
 export PROJECTS=$HOME/Code
 
+# Ruby Gem installation location
+export GEM_HOME=$HOME/.gem
+
 # What editor I use, so I can type `e .` to open
 export EDITOR='code'
 
