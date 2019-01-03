@@ -17,3 +17,5 @@ alias rm=trash
 alias path='printf "%b\n" "${PATH//:/\\n}"'
 
 alias c='source ~/.zsh/c'
+
+alias e='open-editor'

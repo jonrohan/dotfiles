@@ -10,31 +10,13 @@
   br = branch
   ci = commit
   co = checkout
-  count = !git shortlog -sn
-  cp = cherry-pick
   cut = checkout -b
-  ff = pull --ff-only
-  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
-  logg = log --graph --decorate --branches --remotes
-  logs = log --stat --decorate
-  lol = log --graph --decorate --pretty=oneline --abbrev-commit
-  lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
   ls = ls-files
-  merged = !sh -c 'git rev-list HEAD | grep $(git rev-parse $0)'
-  override = !sh -c 'echo git add -- $0 && echo git reset HEAD -q -- $0 && echo git checkout -- $0'
-  pop = stash pop
-  popf = !git stash show -p | git apply && git stash drop
-  pu = !"git fetch origin -v; git fetch upstream -v; git merge upstream/master"
-  purge-remote = !sh -c 'echo git branch -a | echo sed -n \"/master$/d;s?^ *remotes/$0/??p\"'
-  sdcommit = !git stash && git svn dcommit && git stash pop
-  sff = !git stash && git ff && git pop
-  srebase = !git stash && git svn rebase -l && git stash pop
+  merged = !git-merged
   st = status
   sup = !git stash && git up && git pop
-  unadd = rm --cached
   up = pull --rebase
   vanity = shortlog -sn
-  wu = log --stat origin..@{0}
 [color]
 	# Colour terminal command output when possible.
 	ui = auto

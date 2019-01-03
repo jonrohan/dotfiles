@@ -6,6 +6,7 @@ DavidAnson.vscode-markdownlint
 dbaeumer.vscode-eslint
 dracula-theme.theme-dracula
 dsznajder.es7-react-js-snippets
+dunstontc.viml
 EditorConfig.EditorConfig
 eg2.vscode-npm-script
 esbenp.prettier-vscode
@@ -16,6 +17,7 @@ misogi.ruby-rubocop
 ms-vscode.sublime-keybindings
 ms-vsliveshare.vsliveshare
 perragnaredin.light-plus-tweaked
+sharat.vscode-brewfile
 shinnn.stylelint
 silvenon.mdx
 Tyriar.sort-lines
