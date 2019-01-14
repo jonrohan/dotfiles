@@ -17,6 +17,8 @@
   sup = !git stash && git up && git pop
   up = pull --rebase
   vanity = shortlog -sn
+  # hub aliases
+  open = !hub browse
 [color]
 	# Colour terminal command output when possible.
 	ui = auto

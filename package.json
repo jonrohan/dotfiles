@@ -5,9 +5,10 @@
   "dependencies": {
     "alfred-dark-mode": "latest",
     "dark-mode-cli": "latest",
-    "now": "^12.1.8",
+    "now": "latest",
     "open-editor-cli": "latest",
     "pure-prompt": "latest",
-    "trash-cli": "latest"
+    "trash-cli": "latest",
+    "typescript": "latest"
   }
 }
