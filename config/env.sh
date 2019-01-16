@@ -1,6 +1,9 @@
 # Projects root, for autocompleting
 export PROJECTS=$HOME/Code
 
+# Temp directory
+export TEMP=/tmp
+
 # Ruby Gem installation location
 export GEM_HOME=$HOME/.gem
 
