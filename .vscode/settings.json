@@ -21,7 +21,7 @@
     "editor.scrollBeyondLastColumn": 10,
     "editor.scrollBeyondLastLine": false,
     "workbench.startupEditor": "newUntitledFile",
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1,
     "workbench.colorCustomizations": {
         "activityBarBadge.background": "#2979FF",
         "list.activeSelectionForeground": "#2979FF",
@@ -43,5 +43,6 @@
         "breadcrumb.activeSelectionForeground": "#2979FF",
         "menu.selectionForeground": "#2979FF",
         "menubar.selectionForeground": "#2979FF"
-    }
+    },
+    "search.location": "panel"
 }
