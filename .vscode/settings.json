@@ -1,8 +1,7 @@
 {
-    "workbench.colorTheme": "Cobalt2",
     "editor.fontSize": 18,
     "editor.fontFamily": "Operator Mono",
-    "workbench.iconTheme": "vs-minimal",
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.activityBar.visible": false,
     "editor.minimap.enabled": false,
     "breadcrumbs.enabled": true,
@@ -44,5 +43,11 @@
         "menu.selectionForeground": "#2979FF",
         "menubar.selectionForeground": "#2979FF"
     },
-    "search.location": "panel"
+    "search.location": "panel",
+    "material-icon-theme.folders.theme": "classic",
+    "material-icon-theme.activeIconPack": "react",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "autoDarkMode.darkTheme": "Noctis",
+    "autoDarkMode.lightTheme": "Atom One Light",
+    "workbench.colorTheme": "Atom One Light"
 }

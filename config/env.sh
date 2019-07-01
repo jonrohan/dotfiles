@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # Projects root, for autocompleting
 export PROJECTS=$HOME/Code
 

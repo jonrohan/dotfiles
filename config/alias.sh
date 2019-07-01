@@ -1,3 +1,4 @@
+#!/bin/sh
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..='cd ..'
