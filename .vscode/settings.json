@@ -1,5 +1,5 @@
 {
-    "editor.fontSize": 18,
+    "editor.fontSize": 16,
     "editor.fontFamily": "Operator Mono",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.activityBar.visible": false,
@@ -47,7 +47,10 @@
     "material-icon-theme.folders.theme": "classic",
     "material-icon-theme.activeIconPack": "react",
     "material-icon-theme.hidesExplorerArrows": true,
-    "autoDarkMode.darkTheme": "Noctis",
-    "autoDarkMode.lightTheme": "Atom One Light",
-    "workbench.colorTheme": "Atom One Light"
+    "autoDarkMode.darkTheme": "City Lights",
+    "autoDarkMode.lightTheme": "FlatUI Immersed",
+    "workbench.colorTheme": "Material Theme Palenight High Contrast",
+    "debug.console.fontSize": 15,
+    "markdown.preview.fontSize": 15,
+    "terminal.integrated.fontSize": 15
 }
