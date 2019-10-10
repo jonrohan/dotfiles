@@ -1,6 +1,7 @@
 tap "homebrew/cask"
 tap "homebrew/core"
 brew "coreutils"
+brew "diff-so-fancy"
 brew "ffmpeg"
 brew "fzy"
 brew "gifski"

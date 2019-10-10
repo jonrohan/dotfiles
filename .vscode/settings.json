@@ -9,9 +9,7 @@
     "editor.tabSize": 2,
     "editor.multiCursorModifier": "ctrlCmd",
     "files.autoSave": "onFocusChange",
-    "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
-    "files.insertFinalNewline": true,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "workbench.statusBar.feedback.visible": false,
@@ -52,5 +50,7 @@
     "workbench.colorTheme": "Material Theme Palenight High Contrast",
     "debug.console.fontSize": 15,
     "markdown.preview.fontSize": 15,
-    "terminal.integrated.fontSize": 15
+    "terminal.integrated.fontSize": 15,
+    "liveshare.featureSet": "insiders",
+    "files.trimFinalNewlines": true
 }
