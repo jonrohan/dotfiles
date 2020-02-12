@@ -1,8 +1,5 @@
 {
     "editor.fontSize": 16,
-    "editor.fontFamily": "Operator Mono",
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.activityBar.visible": false,
     "editor.minimap.enabled": false,
     "breadcrumbs.enabled": true,
     "editor.cursorStyle": "block",
@@ -41,16 +38,26 @@
         "menu.selectionForeground": "#2979FF",
         "menubar.selectionForeground": "#2979FF"
     },
-    "search.location": "panel",
     "material-icon-theme.folders.theme": "classic",
     "material-icon-theme.activeIconPack": "react",
     "material-icon-theme.hidesExplorerArrows": true,
     "autoDarkMode.darkTheme": "City Lights",
     "autoDarkMode.lightTheme": "FlatUI Immersed",
-    "workbench.colorTheme": "Material Theme Palenight High Contrast",
     "debug.console.fontSize": 15,
     "markdown.preview.fontSize": 15,
     "terminal.integrated.fontSize": 15,
     "liveshare.featureSet": "insiders",
-    "files.trimFinalNewlines": true
+    "files.trimFinalNewlines": true,
+    "editor.fontFamily": "Consolas, \"Liberation Mono\", Menlo, monospace",
+    "jshint.nodePath": "/Users/jonrohan/.dotfiles/node_modules",
+    "vsicons.presets.foldersAllDefaultIcon": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "todo-tree.highlights.enabled": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "workbench.activityBar.visible": false,
+    "workbench.editor.showTabs": true,
+    "window.autoDetectColorScheme": true,
+    "workbench.preferredDarkColorTheme": "City Lights",
+    "workbench.colorTheme": "Night Owl Light",
+    "workbench.preferredLightColorTheme": "Night Owl Light"
 }
