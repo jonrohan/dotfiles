@@ -6,7 +6,7 @@ GEM
     jaro_winkler (1.5.1)
     maruku (0.7.3)
     mini_portile2 (2.4.0)
-    nokogiri (1.10.7)
+    nokogiri (1.10.8)
       mini_portile2 (~> 2.4.0)
     parallel (1.12.1)
     parser (2.5.3.0)
