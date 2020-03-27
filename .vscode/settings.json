@@ -55,9 +55,14 @@
     "todo-tree.highlights.enabled": true,
     "vsicons.dontShowNewVersionMessage": true,
     "workbench.activityBar.visible": false,
-    "workbench.editor.showTabs": true,
+    "workbench.editor.showTabs": false,
     "window.autoDetectColorScheme": true,
     "workbench.preferredDarkColorTheme": "City Lights",
-    "workbench.colorTheme": "Night Owl Light",
-    "workbench.preferredLightColorTheme": "Night Owl Light"
+    "workbench.colorTheme": "City Lights",
+    "workbench.preferredLightColorTheme": "Night Owl Light",
+    "workbench.sideBar.location": "right",
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": false,
+    "todo-tree.tree.showScanModeButton": false,
+    "files.insertFinalNewline": true
 }
