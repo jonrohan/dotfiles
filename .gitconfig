@@ -1,11 +1,13 @@
 [user]
-	name = Jon Rohan
-	email = yes@jonrohan.codes
-	signingkey = B0BBE304A9A0AECB
+  name = Jon Rohan
+  email = yes@jonrohan.codes
+  signingkey = B0BBE304A9A0AECB
 [github]
   user = jonrohan
 [gpg]
-	program = gpg
+  program = gpg
+[gc]
+  auto = 250
 [alias]
   br = branch
   ci = commit
@@ -21,19 +23,19 @@
   # hub aliases
   open = !hub browse
 [color]
-	# Colour terminal command output when possible.
-	ui = auto
+  # Colour terminal command output when possible.
+  ui = auto
 [color "branch"]
   current = yellow reverse
   local = yellow
   remote = green
 [color "diff"]
-	meta = 8
-	frag = magenta bold
-	old = red bold
-	new = green bold
-	whitespace = red reverse
-	commit = yellow bold
+  meta = 8
+  frag = magenta bold
+  old = red bold
+  new = green bold
+  whitespace = red reverse
+  commit = yellow bold
 [color "status"]
   added = yellow
   changed = green
@@ -44,32 +46,32 @@
   excludesfile = ~/.gitignore
   editor = vim
   ignorecase = false
-	pager = diff-so-fancy | less --tabs=4 -RFX
+  pager = diff-so-fancy | less --tabs=4 -RFX
 [credential]
-	# Use macOS Keychain to store HTTP passwords.
-	helper = osxkeychain
+  # Use macOS Keychain to store HTTP passwords.
+  helper = osxkeychain
 [fetch]
-	# Always prune when fetching (and pulling).
-	prune = 1
+  # Always prune when fetching (and pulling).
+  prune = 1
 [help]
   # Autocorrect mistyped commands.
-	autocorrect = 1
+  autocorrect = 1
 [pull]
-	# Default to rebasing on pulls
-	rebase = true
+  # Default to rebasing on pulls
+  rebase = true
 [push]
-	# Push to the set upstream branch being tracked by default.
-	default = current
+  # Push to the set upstream branch being tracked by default.
+  default = current
 [rerere]
-	# Store and re-use manual conflict resolution changes.
-	enabled = 1
+  # Store and re-use manual conflict resolution changes.
+  enabled = 1
 [filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
+  required = true
 [color "diff-highlight"]
-	oldNormal = red bold
-	oldHighlight = red bold 52
-	newNormal = green bold
-	newHighlight = green bold 22
+  oldNormal = red bold
+  oldHighlight = red bold 52
+  newNormal = green bold
+  newHighlight = green bold 22
