@@ -31,3 +31,6 @@ setopt hist_reduce_blanks
 
 # Share history between instances
 setopt share_history
+
+# GitHub secure localhost server
+export GH_SSL=1

@@ -1,4 +1,13 @@
 #!/bin/sh
 
-# Delete any branches already merged into master
-git branch --merged master | grep -v "\* master" | xargs -n 1 git branch -d
+set -e
+
+default_branch=$(cat .git/refs/remotes/origin/HEAD | cut -c 26-)
+current_branch=$(git rev-parse --abbrev-ref HEAD)
+
+if [ "$default_branch" == "$current_branch" ]; then
+  # Delete any branches already merged into default_branch
+  git branch --merged $default_branch | grep -v "\* $default_branch" | xargs -n 1 git branch -d
+else
+  echo "Skipping git merged. Must be on default branch."
+fi
