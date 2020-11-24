@@ -5,8 +5,8 @@
   "dependencies": {
     "alfred-dark-mode": "latest",
     "dark-mode-cli": "latest",
-    "jshint": "latest",
     "eslint": "latest",
+    "jshint": "latest",
     "now": "latest",
     "open-editor-cli": "latest",
     "pure-prompt": "latest",

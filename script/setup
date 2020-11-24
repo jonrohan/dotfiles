@@ -32,12 +32,15 @@ VSCODE="$HOME/Library/Application Support/Code/User" && mkdir -p "$VSCODE"
 link ".vscode/snippets/" "$VSCODE"
 link ".vscode/settings.json" "$VSCODE/settings.json"
 
+# Homebrew
+brew bundle check --global || brew bundle --global || echo "Homebrew Errors"
+
 # install npm packages
-npm install
+npm update || npm install || echo "NPM Errors"
 
 # Install gems
 gem install bundler
-bundle install
+bundle update || bundle install --system || echo "Bundler Errors"
 
 # Install vscode extensions
 while read extension; do

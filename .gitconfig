@@ -22,8 +22,6 @@
   vanity = shortlog -sn
   push = push -u
   scrub = !git fetch && git gc --prune=now --auto && git-merged
-  # hub aliases
-  open = !hub browse
 [color]
   # Colour terminal command output when possible.
   ui = auto

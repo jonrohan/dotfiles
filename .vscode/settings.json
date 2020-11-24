@@ -1,5 +1,5 @@
 {
-    "editor.fontSize": 16,
+    "editor.fontSize": 18,
     "editor.minimap.enabled": false,
     "editor.cursorStyle": "block",
     "editor.tabSize": 2,
@@ -14,7 +14,7 @@
     "editor.scrollBeyondLastColumn": 10,
     "editor.scrollBeyondLastLine": false,
     "workbench.startupEditor": "newUntitledFile",
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 0,
     "workbench.colorCustomizations": {
         "activityBarBadge.background": "#2979FF",
         "list.activeSelectionForeground": "#2979FF",
