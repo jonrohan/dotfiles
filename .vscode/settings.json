@@ -14,7 +14,6 @@
     "editor.scrollBeyondLastColumn": 10,
     "editor.scrollBeyondLastLine": false,
     "workbench.startupEditor": "newUntitledFile",
-    "window.zoomLevel": 0,
     "workbench.colorCustomizations": {
         "activityBarBadge.background": "#2979FF",
         "list.activeSelectionForeground": "#2979FF",
@@ -53,12 +52,12 @@
     "todo-tree.highlights.enabled": true,
     "vsicons.dontShowNewVersionMessage": true,
     "workbench.activityBar.visible": false,
-    "workbench.editor.showTabs": true,
+    "workbench.editor.showTabs": false,
     "window.autoDetectColorScheme": true,
     "workbench.preferredDarkColorTheme": "Night Owl",
     "workbench.colorTheme": "Night Owl Light",
     "workbench.preferredLightColorTheme": "Night Owl Light",
-    "workbench.sideBar.location": "right",
+    "workbench.sideBar.location": "left",
     "editor.renderWhitespace": "all",
     "editor.renderControlCharacters": false,
     "todo-tree.tree.showScanModeButton": false,
@@ -66,5 +65,8 @@
     "workbench.iconTheme": "quill-icons",
     "workbench.tree.renderIndentGuides": "none",
     "breadcrumbs.icons": false,
-    "gitlens.codeLens.enabled": false
+    "gitlens.codeLens.enabled": false,
+    "ruby.rubocop.suppressRubocopWarnings": true,
+    "ruby.rubocop.useBundler": true,
+    "editor.codeActionsOnSave": null
 }
