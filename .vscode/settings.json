@@ -1,11 +1,9 @@
 {
-    "editor.fontSize": 18,
-    "editor.minimap.enabled": false,
+    "editor.fontSize": 15,
     "editor.cursorStyle": "block",
     "editor.tabSize": 2,
     "editor.multiCursorModifier": "ctrlCmd",
     "files.autoSave": "onFocusChange",
-    "files.trimTrailingWhitespace": true,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "workbench.statusBar.feedback.visible": false,
@@ -48,25 +46,81 @@
     "files.trimFinalNewlines": true,
     "editor.fontFamily": "Consolas, \"Liberation Mono\", Menlo, monospace",
     "jshint.nodePath": "/Users/jonrohan/.dotfiles/node_modules",
-    "vsicons.presets.foldersAllDefaultIcon": true,
     "todo-tree.highlights.enabled": true,
     "vsicons.dontShowNewVersionMessage": true,
-    "workbench.activityBar.visible": false,
     "workbench.editor.showTabs": false,
     "window.autoDetectColorScheme": true,
-    "workbench.preferredDarkColorTheme": "Night Owl",
-    "workbench.colorTheme": "Night Owl Light",
-    "workbench.preferredLightColorTheme": "Night Owl Light",
+    "workbench.preferredDarkColorTheme": "GitHub Dark Dimmed",
+    "workbench.colorTheme": "GitHub Light Default",
+    "workbench.preferredLightColorTheme": "GitHub Light Default",
     "workbench.sideBar.location": "left",
     "editor.renderWhitespace": "all",
     "editor.renderControlCharacters": false,
     "todo-tree.tree.showScanModeButton": false,
     "files.insertFinalNewline": true,
-    "workbench.iconTheme": "quill-icons",
     "workbench.tree.renderIndentGuides": "none",
-    "breadcrumbs.icons": false,
     "gitlens.codeLens.enabled": false,
     "ruby.rubocop.suppressRubocopWarnings": true,
     "ruby.rubocop.useBundler": true,
-    "editor.codeActionsOnSave": null
+    "editor.codeActionsOnSave": null,
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "[ ]",
+        "[x]"
+    ],
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "auto-close-tag.activationOnLanguage": [
+
+        "xml",
+        "php",
+        "blade",
+        "ejs",
+        "jinja",
+        "plaintext",
+        "markdown",
+        "vue",
+        "liquid",
+        "erb",
+        "lang-cfml",
+        "cfml",
+        "HTML (EEx)",
+        "HTML (Eex)",
+        "plist"
+    ],
+    "vsicons.presets.hideFolders": true,
+    "workbench.iconTheme": null,
+    "explorer.compactFolders": false,
+    "explorer.openEditors.sortOrder": "alphabetical",
+    "editor.minimap.size": "fill",
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "copilot.secret_key": "sk-iBCBtDkqxizoOsdtJuROVfVnik61zw6uWkWEgROr",
+    "copilot.displayStyle": "inline",
+    "copilot.showGhostText": false,
+    "editor.inlineSuggest.enabled": true,
+    "editor.smartSelect.selectLeadingAndTrailingWhitespace": false,
+    "github.copilot.inlineSuggest.count": 5,
+    "files.trimTrailingWhitespace": true,
+    "gitlens.advanced.messages": {
+        "suppressLineUncommittedWarning": true
+    },
+    "github.codespaces.showPerformanceExplorer": true,
+    "workbench.editor.untitled.hint": "hidden",
+    "git.enableSmartCommit": true,
+    "stylelint.useLocal": true,
+    "git.confirmSync": false
 }
