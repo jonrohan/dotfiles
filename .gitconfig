@@ -23,6 +23,7 @@
   push = push -u
   scrub = !git fetch && git gc --prune=now --auto && git-merged
   open = !gh repo view --web
+	delete-squashed = "!f() { local targetBranch=${1:-main} && git checkout -q $targetBranch && git branch --merged | grep -v \"\\*\" | xargs -n 1 git branch -d && git for-each-ref refs/heads/ \"--format=%(refname:short)\" | while read branch; do mergeBase=$(git merge-base $targetBranch $branch) && [[ $(git cherry $targetBranch $(git commit-tree $(git rev-parse $branch^{tree}) -p $mergeBase -m _)) == \"-\"* ]] && git branch -D $branch; done; }; f"
 [color]
   # Colour terminal command output when possible.
 	ui = true
@@ -47,7 +48,6 @@
   excludesfile = ~/.gitignore
   editor = vim
   ignorecase = false
-	pager = diff-so-fancy | less --tabs=4 -RFX
   hooksPath = ~/.githooks
 [credential]
   # Use macOS Keychain to store HTTP passwords.

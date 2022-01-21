@@ -43,12 +43,10 @@
     "markdown.preview.fontSize": 15,
     "terminal.integrated.fontSize": 15,
     "liveshare.featureSet": "insiders",
-    "files.trimFinalNewlines": true,
     "editor.fontFamily": "Consolas, \"Liberation Mono\", Menlo, monospace",
     "jshint.nodePath": "/Users/jonrohan/.dotfiles/node_modules",
     "todo-tree.highlights.enabled": true,
     "vsicons.dontShowNewVersionMessage": true,
-    "workbench.editor.showTabs": false,
     "window.autoDetectColorScheme": true,
     "workbench.preferredDarkColorTheme": "GitHub Dark Dimmed",
     "workbench.colorTheme": "GitHub Light Default",
@@ -57,7 +55,6 @@
     "editor.renderWhitespace": "all",
     "editor.renderControlCharacters": false,
     "todo-tree.tree.showScanModeButton": false,
-    "files.insertFinalNewline": true,
     "workbench.tree.renderIndentGuides": "none",
     "gitlens.codeLens.enabled": false,
     "ruby.rubocop.suppressRubocopWarnings": true,
@@ -122,5 +119,44 @@
     "workbench.editor.untitled.hint": "hidden",
     "git.enableSmartCommit": true,
     "stylelint.useLocal": true,
-    "git.confirmSync": false
+    "git.confirmSync": false,
+    "extensions.ignoreRecommendations": true,
+    "diffEditor.renderSideBySide": false,
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
+    "projectManager.git.baseFolders": [
+        "~/Code/"
+    ],
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "zsh"
+        },
+        "fish": {
+            "path": "fish"
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        },
+        "zsh (2)": {
+            "path": "/usr/bin/zsh"
+        }
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "stylelint.reportNeedlessDisables": true,
+    "stylelint.validate": [
+        "css",
+        "less",
+        "postcss",
+        "scss"
+    ]
 }
