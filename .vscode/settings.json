@@ -95,7 +95,7 @@
         "plist"
     ],
     "vsicons.presets.hideFolders": true,
-    "workbench.iconTheme": "vscode-icons",
+    "workbench.iconTheme": null,
     "explorer.compactFolders": false,
     "explorer.openEditors.sortOrder": "alphabetical",
     "editor.minimap.size": "fill",
