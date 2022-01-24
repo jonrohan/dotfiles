@@ -29,6 +29,8 @@ done
 # Linking up vscode
 VSCODE="$HOME/Library/Application Support/Code/User" && mkdir -p "$VSCODE"
 
+link "shell/starship.toml" "$HOME/.config/starship.toml"
+
 link ".vscode/snippets/" "$VSCODE"
 link ".vscode/settings.json" "$VSCODE/settings.json"
 

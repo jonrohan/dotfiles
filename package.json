@@ -9,7 +9,6 @@
     "jshint": "latest",
     "now": "latest",
     "open-editor-cli": "latest",
-    "pure-prompt": "latest",
     "trash-cli": "latest",
     "typescript": "latest"
   }

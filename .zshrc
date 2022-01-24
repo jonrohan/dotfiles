@@ -27,6 +27,8 @@ done
 
 unset CONFIG_FILES
 
-# Activate pure prompt
-autoload -U promptinit; promptinit
-prompt pure
+# # Activate pure prompt
+# autoload -U promptinit; promptinit
+# prompt pure
+
+eval "$(starship init zsh)"
