@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "name": "dotfiles",
   "dependencies": {
-    "alfred-dark-mode": "latest",
     "dark-mode-cli": "latest",
     "eslint": "latest",
     "jshint": "latest",
-    "now": "latest",
     "open-editor-cli": "latest",
     "trash-cli": "latest",
-    "typescript": "latest"
+    "typescript": "latest",
+    "stylelint": "latest"
   }
 }
