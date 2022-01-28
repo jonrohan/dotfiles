@@ -51,7 +51,6 @@
     "workbench.preferredDarkColorTheme": "GitHub Dark Dimmed",
     "workbench.colorTheme": "GitHub Light Default",
     "workbench.preferredLightColorTheme": "GitHub Light Default",
-    "workbench.sideBar.location": "left",
     "editor.renderWhitespace": "all",
     "editor.renderControlCharacters": false,
     "todo-tree.tree.showScanModeButton": false,
@@ -127,7 +126,7 @@
     "projectManager.git.baseFolders": [
         "~/Code/"
     ],
-    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.defaultProfile.linux": "zsh",
     "terminal.integrated.profiles.linux": {
         "bash": {
             "path": "bash",
@@ -158,5 +157,7 @@
         "less",
         "postcss",
         "scss"
-    ]
+    ],
+    "grammarly.domain": "technical",
+    "grammarly.hideUnavailablePremiumAlerts": true
 }

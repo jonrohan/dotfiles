@@ -25,6 +25,8 @@ do
   source $FILE
 done
 
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 unset CONFIG_FILES
 
 eval "$(starship init zsh)"
