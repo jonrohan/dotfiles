@@ -16,6 +16,7 @@
   cut = checkout -b
   ls = ls-files
   merged = !git-merged
+  blame-status = !git-blame-stats .
   st = status
   sup = !git stash && git up && git pop
   up = pull --rebase

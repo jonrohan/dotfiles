@@ -1,5 +1,5 @@
 {
-    "editor.fontSize": 15,
+    "editor.fontSize": 17,
     "editor.cursorStyle": "block",
     "editor.tabSize": 2,
     "editor.multiCursorModifier": "ctrlCmd",
@@ -40,15 +40,13 @@
     "markdown.preview.fontSize": 15,
     "terminal.integrated.fontSize": 15,
     "liveshare.featureSet": "insiders",
-    "editor.fontFamily": "Consolas, \"Liberation Mono\", Menlo, monospace",
+    "editor.fontFamily": "\"Fira Code\"",
     "vsicons.dontShowNewVersionMessage": true,
     "window.autoDetectColorScheme": true,
-    "workbench.preferredDarkColorTheme": "Dracula",
-    "workbench.colorTheme": "Night Owl Light",
-    "workbench.preferredLightColorTheme": "GitHub Light Default",
+    "workbench.preferredDarkColorTheme": "GitHub Dark Default",
+    "workbench.preferredLightColorTheme": "Night Owl Light (No Italics)",
     "editor.renderWhitespace": "all",
     "editor.renderControlCharacters": false,
-    "workbench.tree.renderIndentGuides": "none",
     "gitlens.codeLens.enabled": false,
     "ruby.rubocop.suppressRubocopWarnings": true,
     "ruby.rubocop.useBundler": true,
@@ -78,9 +76,7 @@
         "plist"
     ],
     "vsicons.presets.hideFolders": true,
-    "explorer.compactFolders": false,
     "explorer.openEditors.sortOrder": "alphabetical",
-    "editor.minimap.size": "fill",
     "[css]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -93,18 +89,14 @@
     "gitlens.advanced.messages": {
         "suppressLineUncommittedWarning": true
     },
-    "workbench.editor.untitled.hint": "hidden",
     "git.enableSmartCommit": true,
-    "stylelint.useLocal": true,
     "git.confirmSync": false,
     "extensions.ignoreRecommendations": true,
     "diffEditor.renderSideBySide": false,
-    "files.trimFinalNewlines": true,
-    "files.insertFinalNewline": true,
     "projectManager.git.baseFolders": [
         "~/Code/"
     ],
-    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.defaultProfile.linux": "bash",
     "terminal.integrated.profiles.linux": {
         "bash": {
             "path": "bash",
@@ -131,9 +123,57 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "stylelint.reportNeedlessDisables": true,
     "stylelint.validate": [
-        "css",
-        "less",
-        "postcss",
-        "scss"
-    ]
+      "css",
+      "postcss",
+      "scss"
+    ],
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "githubPullRequests.createOnPublishBranch": "never",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "solargraph.useBundler": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.editor.showTabs": "single",
+    "terminal.integrated.scrollback": 3000,
+    "githubPullRequests.pullBranch": "never",
+    "editor.stickyScroll.enabled": true,
+    "workbench.iconTheme": "vs-minimal",
+    "comments.openView": "never",
+    "workbench.colorTheme": "Night Owl Light (No Italics)",
+    "workbench.tree.renderIndentGuides": "none",
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": false,
+    "terminal.explorerKind": "external",
+    "scm.defaultViewMode": "tree",
+    "explorer.fileNesting.patterns": {
+        "Gemfile": "Gemfile.lock"
+    },
+    "editor.detectIndentation": false,
+    "github.codespaces.showPerformanceExplorer": true,
+    "github.codespaces.connectionType": "any",
+    "github.copilot.enable": {
+      "*": true,
+      "yaml": false,
+      "plaintext": true,
+      "markdown": false,
+      "scminput": false
+    },
+    "editor.minimap.autohide": true,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.scale": 2,
+    "files.trimFinalNewlines": true,
+    "stylelint.snippet": [
+      "css",
+      "less",
+      "postcss",
+      "scss"
+    ],
+    "workbench.activityBar.location": "hidden",
+    "workbench.editor.empty.hint": "hidden"
 }
